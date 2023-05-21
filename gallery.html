@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Paws Logo -icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/gallery.css">
+    <title>Paws in Focus</title>
+</head>
+<body class="body">
+  <header>
+    <nav class="nav-bar">
+        <div class="mobile-img">
+            <img src="img/Paws Logo - use.png" alt="">
+        </div>
+
+        <ul class="nav-menu">
+            <li class="nav-item"><a class="nav-links" href="index.html">home</a></li>
+            <li class="nav-item light">
+                  <select name="breeds" id="breeds" onchange="scrollToDogs()">
+                    <option value="gallery">Gallery</option>
+                    <option value="chihuahua">Chihuahua</option>
+                    <option value="yorkshire">Yorkshire Terrier</option>
+                    <option value="pomeranian">Pomeranian</option>
+                    <option value="shih">Shih Tzu</option>
+                    <option value="dachshund">Dachshund</option>
+                    <option value="boston">Boston Terrier</option>
+                    <option value="french">French Bulldog</option>
+                    <option value="cavalier">Cavalier King Charles Spaniel</option>
+                    <option value="beagle">Beagle</option>
+                    <option value="cocker">Cocker Spaniel</option>
+                    <option value="bichon">Bichon Frise</option>
+                    <option value="pembroke">Pembroke Welsh Corgi</option>
+                    <option value="border">Border Collie</option>
+                    <option value="australian">Australian Shepherd</option>
+                    <option value="siberian">Siberian Husky</option>
+                    <option value="golden">Golden Retriever</option>
+                    <option value="german">German Shepherd</option>
+                    <option value="rottweiler">Rottweiler</option>
+                    <option value="newfoundland">Newfoundland</option>
+                    <option value="great">Great Dane</option>
+                  </select>
+              
+            </li>
+            <a href="index.html" class="logo animate__animated animate__bounceIn"><img src="img/Paws Logo - use.png" alt="My Logo"></a>
+            <li class="nav-item"><a class="nav-links" href="about.html">about</a></li>
+            <li class="nav-item"><a class="nav-links" href="contact.html">contact</a></li>
+        </ul>
+        
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+    <!-- Swiper -->
+
+  <div class="g-header animate__animated animate__zoomInDown" id="gallery">
+    <h1>Paws in Focus</h1>
+    <p>
+      is an exploration of the incredible beauty and diversity of dogs. Through our gallery of stunning photographs <br>
+      and inspiring stories, we invite you to delve deeper into the world of canines  and discover their unique
+      personalities, characteristics, and charm.
+    </p>
+  </div>
+
+  <section class="swiper mySwiper animate__animated animate__zoomIn">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/img1.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img2.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img3.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img4.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img5.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img6.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img7.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img8.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img9.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img10.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img11.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img12.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img13.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img14.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img15.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img16.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img17.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img18.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img19.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img20.jpg" />
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-left" id="chihuahua">
+    <div class="gallery-content images" data-aos="fade-right">
+      <img src="img/nbg1.png" alt="">
+    </div>
+
+    <div class="gallery-content" data-aos="fade-left">
+      <h1>
+        The Chihuahua is a small breed of dog that originated in Mexico. They are known for their small size, 
+        big personalities, and loyal companionship.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        Chihuahuas are the smallest breed of dog, typically weighing between 2 to 6 pounds and standing only 
+        6 to 9 inches tall at the shoulder. They have a round head, large, erect ears, and bright, expressive eyes. 
+        Their coat can come in a variety of colors and patterns, including black, white, tan, and brindle.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Chihuahuas are known for their big personalities despite their small size. They are loyal and affectionate 
+        with their owners and often become very attached to them. They can be wary of strangers and other dogs, 
+        but with proper socialization, they can learn to get along well with others. They are also intelligent and 
+        eager to please, making them trainable and obedient. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, delectus. 
+        Cumque commodi unde perspiciatis ea sunt quia tempore reprehenderit repellat! Inventore sapiente aperiam dolorem, enim magni nobis ea quia optio.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni alias ipsa, unde veritatis sint quidem totam .
+      </p>
+    </div>
+  </section>
+
+  <section class="gallery" id="yorkshire">
+    <div class="gallery-content" data-aos="fade-right">
+      <h1>
+        The Yorkshire Terrier, or "Yorkie," is a small breed of dog that originated in Yorkshire, England. 
+        They are known for their cute appearance and big personalities, and they make great companions for 
+        those who appreciate their spunky nature.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        Yorkshire Terriers are a small breed, typically weighing between 4 to 7 pounds and standing only 7 to 
+        8 inches tall at the shoulder. They have a long, silky coat that comes in a variety of colors, 
+        including blue and tan, black and tan, and gold and tan. Their coat requires regular grooming to keep 
+        it healthy and shiny.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Yorkshire Terriers are known for their big personalities despite their small size. They are confident 
+        and spunky, often displaying a "big dog" attitude. They are also affectionate and loyal with their owners 
+        and make great lap dogs. They can be wary of strangers and other dogs, but with proper socialization, they 
+        can learn to get along well with others.
+        Cumque commodi unde perspiciatis ea sunt quia tempore reprehenderit repellat! Inventore sapiente aperiam dolorem, enim magni nobis ea quia option.
+      </p>
+    </div>
+
+    <div class="gallery-content images" data-aos="fade-left">
+      <img src="img/nbg2.png" alt="">
+    </div>
+  </section>
+
+  <section class="gallery-left" id="pomeranian">
+    <div class="gallery-content images" data-aos="fade-right">
+      <img src="img/nbg3.png" alt="">
+    </div>
+
+    <div class="gallery-content" data-aos="fade-left">
+      <h1>
+        The Pomeranian, or "Pom," is a small breed of dog that originated in the Pomerania region of Germany and Poland. 
+        They are known for their fluffy, adorable appearance and outgoing personalities.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        Pomeranians are a small breed, typically weighing between 3 to 7 pounds and standing only 6 to 7 inches tall 
+        at the shoulder. They have a thick, double coat that comes in a variety of colors, including white, black,
+         brown, and orange. Their coat requires regular grooming to keep it healthy and fluffy.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Pomeranians are known for their outgoing and lively personalities. They are intelligent and eager to please, 
+        making them trainable and obedient. They are also affectionate and loyal with their owners and make great lap 
+        dogs. They can be wary of strangers and other dogs, but with proper socialization, they can learn to get along
+        well with others.
+        Cumque commodi unde perspiciatis ea sunt quia tempore reprehenderit repellat! Inventore sapiente aperiam dolorem, enim magni nobis ea quie.
+      </p>
+    </div>
+  </section>
+
+  <section class="gallery" id="shih">
+    <div class="gallery-content" data-aos="fade-right">
+      <h1>
+        The Shih Tzu is a small breed of dog that originated in China. They are known for their long, silky coats
+        and affectionate personalities. 
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        Shih Tzus are a small breed, typically weighing between 9 to 16 pounds and standing 8 to 11 inches tall at the 
+        shoulder. They have a thick, luxurious coat that can come in a variety of colors, including white, black, gold,
+        and brindle. Their coat requires daily grooming to prevent matting and tangling.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Shih Tzus are known for their friendly and affectionate personalities. They are loyal and devoted to their owners 
+        and make great lap dogs. They are also playful and enjoy spending time with their families. They can be wary of 
+        strangers and other dogs, but with proper socialization, they can learn to get along well with others.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officiis distinctio sint, maiores, dolor atque deleniti explicabo vero magni soluta at deserunt molestiae itaque aspernatur exercitationem sunt, voluptates cum eligendi.
+        Maiores, dolor atque deleniti explicabo vero magni.
+      </p>
+    </div>
+
+    <div class="gallery-content images" data-aos="fade-left">
+      <img src="img/nbg4.png" alt="">
+    </div>
+  </section>
+
+  <section class="gallery-left" id="dachshund">
+    <div class="gallery-content images" data-aos="fade-right">
+      <img src="img/nbg5.png" alt="">
+    </div>
+
+    <div class="gallery-content" data-aos="fade-left">
+      <h1>
+        The Dachshund, also known as the "Wiener Dog" or "Sausage Dog," is a small breed that originated in Germany. 
+        They are known for their unique appearance, long body, and short legs.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        Dachshunds come in two sizes, standard and miniature, with the standard size weighing between 16 and 32 pounds 
+        and the miniature weighing 11 pounds or less. They have a long, muscular body and short legs, which make them 
+        easily recognizable. They come in a variety of colors, including black, brown, and tan, and can have smooth, 
+        wire, or long hair.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Dachshunds are loyal and affectionate dogs that are known for their big personalities. They are intelligent and 
+        independent, which can make them a bit stubborn at times, but also trainable with consistency and positive 
+        reinforcement. They can be protective of their owners and may bark at strangers or other dogs, but socialization 
+        can help to minimize this behavior.
+      </p>
+    </div>
+  </section>
+
+  <section class="gallery" id="boston">
+    <div class="gallery-content" data-aos="fade-right">
+      <h1>
+        The Boston Terrier is a small breed of dog that originated in the United States. They are often referred to 
+        as the "American Gentleman" due to their tuxedo-like markings and polite demeanor.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        The Boston Terrier is a small, compact dog that typically stands between 15 to 17 inches tall at the shoulder 
+        and weighs between 10 to 25 pounds. They have a short, smooth coat that is black and white, brindle and white, 
+        or seal and white in color. Their most distinctive feature is their large, round, and expressive eyes, which are 
+        set wide apart on their square-shaped head.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Boston Terriers are known for their friendly, affectionate, and gentle personalities. They are highly intelligent 
+        and eager to please, making them easy to train. They are good with children and other pets, and their playful 
+        nature makes them a great companion for families. They are also known for their low-maintenance grooming 
+        requirements and are a popular choice for apartment living due to their small size and adaptable nature.
+      </p>
+    </div>
+
+    <div class="gallery-content images" data-aos="fade-left">
+      <img src="img/nbg6.png" alt="">
+    </div>
+  </section>
+
+  <section class="gallery-left" id="french">
+    <div class="gallery-content images" data-aos="fade-right">
+      <img src="img/nbg7.png" alt="">
+    </div>
+
+    <div class="gallery-content" data-aos="fade-left">
+      <h1>
+        The French Bulldog is a small breed of domestic dog that originated in France. They are known for their bat-like 
+        ears, wrinkled faces, and muscular build. They typically weigh between 16-28 pounds and stand about 11-12 inches 
+        tall.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        The French Bulldog has a compact and muscular build with a short and smooth coat. Their most distinctive feature 
+        is their large, erect and bat-like ears that are set high on their square-shaped head. They have a wrinkled 
+        forehead, a snub nose, and a short tail. French Bulldogs come in a variety of colors, including fawn, cream, 
+        brindle, and black.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        French Bulldogs are known for their affectionate and playful nature. They love to cuddle and spend time with 
+        their owners. They are adaptable to different living situations and make great apartment dogs. French Bulldogs 
+        are good with children and other pets, making them a popular choice for families. They are intelligent but can 
+        be stubborn at times, making consistent training essential. They are also known to have a high tolerance for 
+        other dogs, which makes them an excellent companion for other dogs in the household.
+      </p>
+    </div>
+  </section>
+
+  <section class="gallery" id="cavalier">
+    <div class="gallery-content" data-aos="fade-right">
+      <h1>
+        The Cavalier King Charles Spaniel is a small toy breed of dog that originated in England. They are known for 
+        their sweet and gentle nature, making them a popular choice as a companion dog.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        The Cavalier King Charles Spaniel is a small dog that typically weighs between 13-18 pounds and stands about 
+        12-13 inches tall. They have a silky, medium-length coat that is usually tri-colored (black, white, and tan) or 
+        ruby (solid red). They have long, floppy ears and a gentle, expressive face.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Cavalier King Charles Spaniels are known for their affectionate, playful, and gentle nature. They love to be 
+        around people and are excellent with children, making them a great choice for families. They are intelligent 
+        and eager to please, making them easy to train. They also get along well with other dogs and pets, making them 
+        a great addition to any household. Cavalier King Charles Spaniels have a moderate energy level and enjoy daily 
+        walks and playtime, but are also happy to cuddle up with their owners. They are a good choice for apartment 
+        living due to their small size and adaptable nature.
+      </p>
+    </div>
+
+    <div class="gallery-content images" data-aos="fade-left">
+      <img src="img/nbg8.png" alt="">
+    </div>
+  </section>
+
+  <section class="gallery-left" id="beagle">
+    <div class="gallery-content images" data-aos="fade-right">
+      <img src="img/nbg9.png" alt="">
+    </div>
+
+    <div class="gallery-content" data-aos="fade-left">
+      <h1>
+        The Beagle is a medium-sized breed of dog that originated in England. They are known for their keen sense of 
+        smell and are often used for hunting and tracking.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        The Beagle is a medium-sized dog that typically weighs between 20-30 pounds and stands about 13-15 inches tall 
+        at the shoulder. They have a short, dense coat that comes in a variety of colors, including tricolor 
+        (black, white, and tan), red and white, lemon and white, and blue tick and white. They have long, droopy ears 
+        and expressive eyes.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Beagles are known for their friendly, curious, and energetic personalities. They are highly social dogs and love 
+        to be around people and other dogs. They are intelligent but can be stubborn and require consistent training and 
+        positive reinforcement. They have a moderate energy level and require daily exercise and mental stimulation to 
+        prevent boredom and destructive behaviors. They are good with children and make great family pets. Due to their 
+        strong hunting instincts, they should always be kept on a leash or in a securely fenced area. Beagles have a 
+        loud, distinctive howl that may not be suitable for apartment living.
+      </p>
+    </div>
+  </section>
+
+  <section class="gallery" id="cocker">
+    <div class="gallery-content" data-aos="fade-right">
+      <h1>
+        The Cocker Spaniel is a medium-sized breed of dog that originated in England. 
+        They are known for their beautiful coat and sweet, affectionate nature.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        The Cocker Spaniel comes in two varieties: the American Cocker Spaniel and the English Cocker Spaniel. 
+        The American Cocker Spaniel is smaller and has a shorter muzzle, while the English Cocker Spaniel is larger 
+        and has a longer muzzle. They have a soft, wavy coat that can be a variety of colors, including black, brown, 
+        red, and white. They have long, droopy ears and expressive eyes.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Cocker Spaniels are known for their friendly, gentle, and affectionate personalities. They are highly social 
+        dogs and love to be around people and other pets. They are intelligent and eager to please, making them easy 
+        to train. They have a moderate energy level and require daily exercise and mental stimulation to prevent boredom 
+        and destructive behaviors. They are good with children and make great family pets. Due to their long, floppy ears, 
+        they are prone to ear infections and require regular ear cleaning. They also require regular grooming to maintain 
+        their beautiful coat.
+      </p>
+    </div>
+
+    <div class="gallery-content images" data-aos="fade-left">
+      <img src="img/nbg10.png" alt="">
+    </div>
+  </section>
+
+  <section class="gallery-left" id="bichon">
+    <div class="gallery-content images" data-aos="fade-right">
+      <img src="img/nbg11.png" alt="">
+    </div>
+
+    <div class="gallery-content" data-aos="fade-left">
+      <h1>
+        The Bichon Frise is a small breed of dog that originated in the Mediterranean region. 
+        They are known for their fluffy white coat and playful, affectionate nature.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        The Bichon Frise is a small dog that typically weighs between 12 to 18 pounds and stands about 9 to 11 inches 
+        tall at the shoulder. They have a dense, curly coat that is always white in color. Their coat requires regular 
+        grooming to prevent matting and to maintain its soft, fluffy appearance. They have a round head with a 
+        black nose, and large, dark eyes that give them a cheerful expression.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Bichon Frises are known for their friendly, affectionate, and playful personalities. They are highly social 
+        dogs and love to be around people and other pets. They are intelligent and eager to please, making them easy to 
+        train. They have a moderate energy level and require daily exercise and mental stimulation to prevent boredom 
+        and destructive behaviors. They are good with children and make great family pets. Due to their small size, 
+        they are well-suited for apartment living, but require regular grooming to maintain their coat. They are also 
+        prone to certain health issues, such as allergies and dental problems, so regular check-ups with a veterinarian 
+        are recommended.
+      </p>
+    </div>
+  </section>
+
+  <section class="gallery" id="pembroke">
+    <div class="gallery-content" data-aos="fade-right">
+      <h1>
+        The Pembroke Welsh Corgi is a small herding dog that originated in Pembrokeshire, Wales. 
+        They are one of the most popular breeds in the United Kingdom and have gained a following worldwide due to 
+        their charming personalities and distinctive appearance.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        The Pembroke Welsh Corgi is a small to medium-sized dog with a sturdy and muscular build. They stand between 10 
+        to 12 inches at the shoulder and weigh between 25 to 30 pounds. Their most distinctive feature is their short 
+        legs, which are in proportion to their body. They have a thick double coat, with a soft undercoat and a longer, 
+        coarser outer coat that comes in a variety of colors, including red, sable, fawn, and black and tan.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Pembroke Welsh Corgis are known for their intelligence, loyalty, and energetic personalities. They are highly 
+        social dogs and thrive on attention and affection from their owners. They are good with children and other pets, 
+        making them a popular choice for families. They are also highly trainable and excel in obedience and agility 
+        competitions.
+      </p>
+    </div>
+
+    <div class="gallery-content images" data-aos="fade-left">
+      <img src="img/nbg12.png" alt="">
+    </div>
+  </section>
+
+  <section class="gallery-left" id="border">
+    <div class="gallery-content images" data-aos="fade-right">
+      <img src="img/nbg13.png" alt="">
+    </div>
+
+    <div class="gallery-content" data-aos="fade-left">
+      <h1>
+        The Border Collie is a highly intelligent and energetic breed of dog that is widely considered to be one of 
+        the best herding dogs in the world. They are known for their intense gaze, athletic build, and exceptional 
+        herding instincts.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        Border Collies are medium-sized dogs that typically weigh between 30 to 55 pounds and stand between 18 to 22 
+        inches tall at the shoulder. They have a thick double coat that comes in a variety of colors, including black 
+        and white, red and white, blue and white, and tri-color. They have a distinctive, alert expression and a muscular, 
+        athletic build.
+      <h2>Personality:</h2>
+      <p>
+        Border Collies are highly intelligent, energetic, and hardworking dogs. They are extremely trainable and excel in 
+        obedience and agility competitions. They are also well-suited for herding, as they have a natural instinct to 
+        control and move livestock. They require daily exercise and mental stimulation to prevent boredom and destructive 
+        behaviors. They are not recommended for apartment living as they require ample space to run and play. 
+        They are loyal and affectionate with their families but can be reserved around strangers. 
+        
+      </p>
+    </div>
+  </section>
+
+  <section class="gallery" id="australian">
+    <div class="gallery-content" data-aos="fade-right">
+      <h1>
+        The Australian Shepherd, also known as the "Aussie," is a highly intelligent and versatile breed of dog that is known for its herding abilities and loyalty to its owners. Despite its name, the Australian Shepherd was actually developed in the United States.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        Australian Shepherds are medium-sized dogs that typically weigh between 40 to 65 pounds and stand between 18 to 23 inches tall at the shoulder. They have a thick double coat that comes in a variety of colors, including black, blue merle, red, and red merle. They have a distinctive bobtail, which can be either naturally short or docked.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Australian Shepherds are known for their intelligence, loyalty, and high energy levels. They are highly trainable and excel in obedience and agility competitions. They are also well-suited for herding, as they have a natural instinct to control and move livestock. They require daily exercise and mental stimulation to prevent boredom and destructive behaviors. They are loyal and affectionate with their families but can be reserved around strangers. 
+      </p>
+    </div>
+
+    <div class="gallery-content images" data-aos="fade-left">
+      <img src="img/nbg14.png" alt="">
+    </div>
+  </section>
+
+  <section class="gallery-left images" id="siberian">
+    <div class="gallery-content" data-aos="fade-right">
+      <img src="img/nbg15.png" alt="">
+    </div>
+
+    <div class="gallery-content" data-aos="fade-left">
+      <h1>
+        The Siberian Husky is a medium-sized dog that originated in Northeast Asia as a sled dog. They are known for their wolf-like appearance and their impressive endurance, making them a popular choice for both companionship and work.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        The Siberian Husky is a medium-sized dog that typically stands between 20 to 23.5 inches tall at the shoulder and weighs between 35 to 60 pounds. They have a thick, dense double coat that comes in a variety of colors, including black, white, gray, and red. Their most distinctive feature is their striking blue or multi-colored eyes, which are set apart on their wedge-shaped head.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Siberian Huskies are known for their friendly, outgoing, and energetic personalities. They are highly intelligent and have a strong desire to please their owners, making them easy to train. They are good with children and other pets, but their high prey drive can sometimes make them unsuitable for homes with small animals like cats. They are also highly active and require plenty of exercise and mental stimulation to prevent destructive behavior.
+    </div>
+  </section>
+
+  <section class="gallery" id="golden">
+    <div class="gallery-content" data-aos="fade-right">
+      <h1>
+        Golden Retrievers are a popular breed of dog that originated in Scotland in the 1800s. They were initially bred for retrieving game during hunting expeditions and have since become one of the most popular breeds in the world, known for their friendly and loyal personalities.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        Golden Retrievers are medium to large-sized dogs, standing between 20 to 24 inches at the shoulder and weighing between 55 to 75 pounds. They have a dense, water-repellent coat that is typically golden in color, but can range from a light cream to a darker golden hue. They have a broad head with friendly, expressive eyes and floppy ears.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Golden Retrievers are known for their friendly, outgoing, and loyal personalities. They are highly social dogs and love to be around people, making them great family pets. They are also intelligent and easy to train, making them a popular choice for service and therapy work. Golden Retrievers are also known for their love of water and outdoor activities, such as swimming and fetching.
+      </p>
+    </div>
+
+    <div class="gallery-content images" data-aos="fade-left">
+      <img src="img/nbg16.png" alt="">
+    </div>
+  </section>
+
+  <section class="gallery-left" id="german">
+    <div class="gallery-content images" data-aos="fade-right">
+      <img src="img/nbg17.png" alt="">
+    </div>
+
+    <div class="gallery-content" data-aos="fade-left">
+      <h1>
+        German Shepherds are a breed of dog that originated in Germany in the late 19th century. They are a large and strong breed, often used as working dogs due to their intelligence and trainability.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        German Shepherds are a medium to large-sized breed, typically weighing between 50 to 90 pounds and standing between 22 to 26 inches at the shoulder. They have a thick, double coat that is usually black and tan or sable in color, with a dense undercoat that helps keep them warm in cold weather. They have a long, wedge-shaped head and erect ears that stand tall on their head.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        German Shepherds are known for their loyalty, courage, and intelligence. They are highly trainable and excel in obedience and protection work. They are often used as police and military dogs due to their natural protective instincts and ability to learn complex tasks quickly. They are also good with children and other pets when properly socialized, making them a popular choice for families. However, they require a lot of exercise and mental stimulation, and may become destructive if left alone for long periods of time.
+      </p>
+    </div>
+  </section>
+
+  <section class="gallery" id="rottweiler">
+    <div class="gallery-content" data-aos="fade-right">
+      <h1>
+        The Rottweiler is a large breed of dog that originated in Germany. They were originally bred to work as herding dogs, but they later became popular as guard dogs and police dogs due to their strength and intelligence.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        The Rottweiler is a muscular and powerful dog that typically stands between 22 to 27 inches tall at the shoulder and weighs between 77 to 130 pounds. They have a short, thick coat that is black with rust-colored markings on their face, legs, and chest. They have a broad head with a strong jaw and round, dark eyes that give them an alert and intelligent expression.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Rottweilers are known for their loyalty, courage, and protective nature. They are highly intelligent and trainable, making them a popular choice for law enforcement and search and rescue operations. They are also great family pets and are good with children when properly socialized. However, due to their protective instincts, they can be wary of strangers and may require early socialization and training to prevent aggression. They are also known for their high energy level and require regular exercise and mental stimulation to stay healthy and happy.
+      </p>
+    </div>
+
+    <div class="gallery-content images" data-aos="fade-left">
+      <img src="img/nbg18.png" alt="">
+    </div>
+  </section>
+
+  <section class="gallery-left" id="newfoundland">
+    <div class="gallery-content images" data-aos="fade-right">
+      <img src="img/nbg19.png" alt="">
+    </div>
+
+    <div class="gallery-content" data-aos="fade-left">
+      <h1>
+        The Newfoundland is a large breed of dog that originated in Newfoundland, Canada. They were originally bred to work alongside fishermen, and their strong swimming ability and muscular build made them well-suited for this task.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        Newfoundlands are a large and powerful breed, with males typically standing between 28 to 30 inches tall at the shoulder and weighing between 130 to 150 pounds, while females are slightly smaller at 26 to 28 inches tall and 100 to 120 pounds in weight. They have a thick, water-resistant double coat that can be black, brown, gray, or a combination of these colors. They have a large, broad head with a square-shaped muzzle, and their eyes are set deep and wide apart.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Newfoundlands are known for their gentle and calm personalities. They are highly intelligent and trainable, and their loyalty and devotion to their owners are second to none. They are patient and affectionate with children and other pets, and their protective nature makes them a good watchdog. They require regular exercise and grooming due to their size and thick coat, but their friendly and easygoing personalities make them a popular choice for families.
+      </p>
+    </div>
+  </section>
+
+  <section class="gallery" id="great">
+    <div class="gallery-content" data-aos="fade-right">
+      <h1>
+        The Great Dane, also known as the German Mastiff or Deutsche Dogge, is a giant breed of dog that originated in Germany. Despite their imposing size, they are often referred to as the "gentle giants" due to their friendly and affectionate personalities.
+      </h1>
+      <h2>Appearance:</h2>
+      <p>
+        Great Danes are one of the tallest dog breeds, with males typically standing between 30 to 34 inches tall at the shoulder and weighing between 120 to 200 pounds, while females are slightly smaller at 28 to 32 inches tall and 100 to 130 pounds in weight. They have a short, smooth coat that can be black, blue, fawn, brindle, or harlequin in color. They have a long, narrow head with a deep muzzle, and their eyes are medium-sized and almond-shaped.
+      </p>
+      <h2>Personality:</h2>
+      <p>
+        Great Danes are known for their calm and affectionate personalities. They are friendly and patient with children and other pets, and their protective nature makes them a good watchdog. They are also intelligent and trainable, but their large size can make them a bit of a handful at times. 
+      </p>
+    </div>
+
+    <div class="gallery-content images" data-aos="fade-left">
+      <img src="img/nbg20.png" alt="">
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <h1>Paws In Focus</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nulla quo fuga, 
+        reprehenderit sunt numquam minus similique voluptatibus porro deleniti consectetur officiis quidem,
+        est tempore dicta culpa possimus ea tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Doloribus doloremque mollitia ipsa praesentium laborum repellat maxime, dolore at. Repellendus magnam, 
+        aut beatae exercitationem illo possimus reprehenderit reiciendis incidunt asperiores dolores.
+      </p>
+      <div class="footer-icons">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-whatsapp"></i>
+        <i class="fa-brands fa-viber"></i>
+        <i class="fa-brands fa-discord"></i>
+      </div>
+    </div>
+  </footer>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+<!-- Initialize Swiper -->
+<script>
+    let swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+      loop: true,
+    });
+  </script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 2500,
+      once: true
+    });
+  </script>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
